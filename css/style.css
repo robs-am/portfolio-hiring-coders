@@ -6,8 +6,24 @@
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #61606042;
     opacity: 0.9;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 body {
@@ -16,6 +32,8 @@ body {
     background-image:  radial-gradient(#303030 1.55px, transparent 1.55px), radial-gradient(#303030 1.55px, #f9f9f9 1.55px);
     background-size: 62px 62px;
     background-position: 0 0,31px 31px;
+    
+
 }
 
 .logo {
@@ -32,6 +50,8 @@ a {
     text-decoration: none;
 }
 
+
+
 .container {
     text-align: center;
 }
@@ -39,10 +59,15 @@ a {
 .container .name h1 {
     font-size: 60px;
     padding: 0.2em;
+    padding-top: 0.4em;
+    color: #A8DD65;
+
 }
 
 .container .name h5 {
     font-size: 25px;
+    font-weight: 300;
+    
 }
 
 #about p {
@@ -67,5 +92,9 @@ a {
     background-color: #eee;
     outline: none;
     
+}
+
+.form button {
+    width: 15%;
 }
 
