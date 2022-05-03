@@ -2,18 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
-    background-color: #9e9898;
+    background-color: #61606042;
     opacity: 0.9;
 }
 
 body {
-    background-color: #c5c5c5;
+    background-color: #f9f9f9;
     opacity: 0.9;
-    background-image: radial-gradient(#f4f4f4 1.55px, #c5c5c5 1.55px);
-    background-size: 31px 31px;
+    background-image:  radial-gradient(#303030 1.55px, transparent 1.55px), radial-gradient(#303030 1.55px, #f9f9f9 1.55px);
+    background-size: 62px 62px;
+    background-position: 0 0,31px 31px;
 }
 
 .logo {
@@ -22,9 +24,48 @@ body {
 
 ul {
     list-style: none;
+    font-size: 24px;
+    
 }
 
 a {
     text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .name h1 {
+    font-size: 60px;
+    padding: 0.2em;
+}
+
+.container .name h5 {
+    font-size: 25px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0.2em;    
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 5em;
+    padding-top: 0.8em;
+}
+
+.form input {
+    width: 50%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+    outline: none;
+    
 }
 
