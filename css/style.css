@@ -51,7 +51,9 @@ a {
 }
 
 .link img:hover {
+    
     transform: scale(1.2);
+    opacity: 0.9;
     transition: 300ms;
 }
 
