@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #9e9898;
+    opacity: 0.9;
+}
+
+body {
+    background-color: #c5c5c5;
+    opacity: 0.9;
+    background-image: radial-gradient(#f4f4f4 1.55px, #c5c5c5 1.55px);
+    background-size: 31px 31px;
+}
+
+.logo {
+    width: 120px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
