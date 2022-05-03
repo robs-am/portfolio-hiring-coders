@@ -87,8 +87,10 @@ a {
 .form {
     width: 40%;
     margin: 0 auto;
-    padding-bottom: 5em;
-    padding-top: 1.2em;
+    padding: 25px;
+    
+    margin-bottom: 2em;
+    border:  thick double #000;
 }
 
 .form input {
