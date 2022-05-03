@@ -61,17 +61,17 @@ a {
 
 .container .name h1 {
     font-size: 50px;
-    padding: 0.2em;
-    padding-top: 0.2em;
+    /* padding: 0.2em; */
+    padding-top: 0.5em;
     color: #1a1818;
 
 }
 
 .container .name h5 {
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 0.3em;
-    color: #db5b10;
+    color: #df6f07e3;
     
 }
 
@@ -85,7 +85,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    
 }
+
 
 
 
@@ -97,18 +100,10 @@ a {
     font-size: 20px;  
 }
 
-.habilidades {
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 3rem;
-    margin: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+h4 {
+    padding-bottom: 0.5em;
 }
+
 
 .form {
     width: 40%;
@@ -120,8 +115,8 @@ a {
 }
 
 .form input {
-    width: 50%;
-    padding: 0.9em;
+    width: 70%;
+    padding: 0.8em;
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
@@ -145,6 +140,7 @@ a {
   background-position: right bottom;
   color: #000;
   font-weight: 600;
+  cursor: pointer;
   
 }
 
@@ -166,7 +162,21 @@ a {
   color: rgba(0, 0, 0, 0.65);
   transform: translateY(0);
 }
-    
+
+@media only screen and (max-width: 600px) {
+
+header {
+    width: 60vh;
+}
+
+
+.container .about {
+    flex-direction: column;
+}
+
+
+
+}
     
     
         
