@@ -16,31 +16,41 @@
 
 <h2 align="center">About</h2>
 
-<p align="center">On this project I went deeper on some pseudo-classes of CSS such as <strong>hover</strong>, <strong>focu</strong> and <strong>active</strong>. I also
+<p align="center">On this project I went deeper on some pseudo-classes of CSS such as <strong>hover</strong>, <strong>focus</strong> and <strong>active</strong>. I also
   used some variety of <strong>box-shadow</strong> styles.</p>
 
-<p align="center">I uses Figma app to vectorize the cartoon image and Responsively app to adjust the Responsiveness od the Screens.</p>
+<p align="center">I used Figma app to vectorize the cartoon image and Responsively app to adjust the Responsiveness od the Screens.</p>
  
 
- 
+ <h2 align="center">Layout</h2>
+
+<p align="center"><strong>Mobile</strong>
 
 
-          
+![127 - Full - iPhone X - 2022-05-04 at 0 54 18 PM](https://user-images.githubusercontent.com/102549776/166747626-1ce38edb-ea61-4907-815a-5b1e63dfe9c0.jpg)</p>
 
 
-<h2 align="center">Layout</h2>
 
-<p align="center"><strong>Mobile</strong></p>
 
-![127 - Full - iPhone X - 2022-04-26 at 4 02 03 PM](https://user-images.githubusercontent.com/102549776/165373361-60927482-5a10-42bf-ae87-440c7078e95e.jpg)
 
+
+
+
+<br><br>
+
+<p align="center"><strong>IPad</strong></p>
+
+
+
+![127 - Full - iPad - 2022-05-04 at 0 54 18 PM](https://user-images.githubusercontent.com/102549776/166747926-cf0f727e-d510-4e1b-8ba8-9c7e478f8689.jpg)
 
 <br><br>
 
 <p align="center"><strong>Desktop</strong></p>
 
-![127 - Full - Generic Laptop - 2022-04-26 at 4 02 03 PM](https://user-images.githubusercontent.com/102549776/165373204-08918046-11d6-461b-bee6-f8bd15a9006b.jpg)</p>
 
+
+![127 - Full - Generic Laptop - 2022-05-04 at 0 54 18 PM](https://user-images.githubusercontent.com/102549776/166748106-c8cf3677-31e8-4f08-8440-6bac31c0ca08.jpg)
 
 
 
