@@ -171,9 +171,20 @@ h4 {
 }
 
 
+@media only screen and (max-width: 768px) {
+    .form {
+        width: 80%;
+        
+        
+    }
+
+    .about p {
+        margin-right: 3.5em;
+        
+    }
 
 
-
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -189,7 +200,7 @@ header {
 }
 
 .container {
-    width: 45vh;
+    width: 50vh;
 }
 
 
@@ -199,17 +210,19 @@ header {
     height:300px;
 }
 
- h1  {
-    font-size: 40px !important;
+.container .name h1  {
+    font-size: 40px;
     
 }
 
-h5 {
-    font-size: 20px !important;
+.container .name h5 {
+    font-size: 20px;
 }
 
-p {
-    font-size: 16px !important;
+.about p {
+    font-size: 16px;
+    max-width: 70%;
+    text-align: justify;
 }
 
 .form {
